@@ -1,0 +1,56 @@
+
+
+a:hover{
+color: greenyellow;
+}
+
+body{ 
+background-color: rgb(198, 132, 241);
+}
+
+
+
+    
+  header {
+    width: 300%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+ 
+ 
+#pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.price-box {
+  border: solid rgb(227, 252, 6) 2px;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+
+
+nav{
+  background: #eee;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  display: #eee;
+  padding: 10px;
+
+}
+nav a:hover{
+  background-color: rgb(85, 85, 85)
+}
+
+
+
