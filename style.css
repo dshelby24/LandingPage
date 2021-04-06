@@ -11,16 +11,18 @@ background-color: rgb(198, 132, 241);
 
 
     
-  header {
-    width: 300%;
-    max-width: 960px;
-    margin: 0 auto;
-  }
- 
+header {
+  width: auto;
+  max-width: auto;
+  text-align: auto;
+  background: rgb(247, 245, 245);
+ color: white;
+
+}
+
  
 #pricing {
-  display: flex;
-  justify-content: center;
+
   align-items: center;
   text-align: center;
 }
@@ -28,29 +30,44 @@ background-color: rgb(198, 132, 241);
   border: solid rgb(227, 252, 6) 2px;
   border-radius: 4px;
   text-align: center;
-
 }
-
-
-
-nav{
-  background: #eee;
-}
-nav ul{
+ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
-
+  overflow: hidden;
+  background-color: rgb(247, 245, 245);
+  top: 0;
+  width: 100%;
 }
-nav a{
-  text-decoration: none;
+
+
+
+li a {
+  display: block;
   color: black;
-  display: #eee;
-  padding: 10px;
-
-}
-nav a:hover{
-  background-color: rgb(85, 85, 85)
+  text-align:justify;
+  padding: 10px 10px;
+  text-decoration: none;
 }
 
+li{
+  position: sticky
+  
+}
+#pricing {
+  flex-direction: column;
+}
 
+#pricing .price-box {
+  margin: 1rem;
+}
+
+.price-box:first-child {
+  margin-right: 0;
+}
+
+.price-box:last-child {
+  margin-left: 0;
+}
 
