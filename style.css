@@ -50,7 +50,7 @@ li a {
 }
 .btn{
   
-  color: aqua;
+  color:  orangered;
   font-family: serif;
 }
 #pricing {
@@ -78,17 +78,37 @@ section iframe {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 500x;
+  height: 300px;
 }
 
 h2{
   text-align: center;
 }
 
+#features {
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
 
+#features .feature {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
 
+#features .feature div {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+.email{
+  text-align: center;
+}
  
-    
- @media screen and (min-width: 600px){
+/* @media screen and (min-width: 600px){
   section iframe {
      margin-left: auto;
      margin-right: auto;
@@ -100,19 +120,18 @@ h2{
      text-align: center;
  
  }
-}
-@media only screen and (min-width: 768px) {
+} */
+/* @media only screen and (min-width: 768px){
     section iframe {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 1000px;
-  height: 500px;
+  height: 500px; 
 }
-
 p{
   text-align: justify;
 }
 
 }
- 
+ */
