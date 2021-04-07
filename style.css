@@ -7,20 +7,14 @@ color: greenyellow;
 body{ 
 background-color: rgb(198, 132, 241);
 }
-
-
-
     
 header {
-  width: auto;
+background: rgb(198, 132, 241);
+ color: white;
+ width: auto;
   max-width: auto;
   text-align: auto;
-  background: rgb(247, 245, 245);
- color: white;
- 
-
 }
-
  
 #pricing {
 
@@ -36,28 +30,31 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: rgb(247, 245, 245);
-  top: 0;
-  width: 100%;
+  background-color: rgb(188, 221, 231);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+header{
+padding: 0px 0px !important;
 
-
+}
 li a {
   display: block;
   color: black;
-  text-align:justify;
+  text-align: center;
   padding: 10px 10px;
   text-decoration: none;
+  font-weight: bold;
+  font-family:unset;
 }
-
-li{
-  position: sticky
+.btn{
   
+  color: aqua;
+  font-family: serif;
 }
 #pricing {
-  flex-direction: column;
+ flex-direction: column;
 }
 
 #pricing .price-box {
@@ -72,3 +69,50 @@ li{
   margin-left: 0;
 }
 
+#aboutus {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+section iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h2{
+  text-align: center;
+}
+
+
+
+ 
+    
+ @media screen and (min-width: 600px){
+  section iframe {
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     width: 370px;
+     height: 300px;
+  }
+   h2{
+     text-align: center;
+ 
+ }
+}
+@media only screen and (min-width: 768px) {
+    section iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1000px;
+  height: 500px;
+}
+
+p{
+  text-align: justify;
+}
+
+}
+ 
