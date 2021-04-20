@@ -6,6 +6,7 @@
   body{ 
   background-color: rgb(198, 132, 241);
   }   
+
   header {
   background: rgb(198, 132, 241);
   width: auto;
@@ -14,29 +15,28 @@
   font-family: 'Bangers', cursive;
   font-size: 20px;
   }
-   .feature-box{
+
+.feature-box{
    
   border: .3rem solid rgb(222, 64, 243);
   border-radius: .5rem; 
-  margin: 10em;
-  font-size: 1.5rem; 
+  margin: 5em;
+  font-size: 15px; 
   padding: 2em 2rem;
   width: 15em;
-    color: #ffffff; 
-    background: rgba(134, 10, 172, 0.171); 
-   text-shadow: 0 0 5px white; 
-    font-family: monospace;
-    
+  color: #ffffff; 
+  background: rgba(134, 10, 172, 0.171); 
+  font-family: monospace;
+ flex-direction: row;
   
-  }
- 
-
-  .boxed{
-  display: flex;
+ }
+ .flex-container{
+display: flex;
 flex-direction: row;
-  }
-  
-  ul {
+justify-content: center;
+}
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -99,6 +99,7 @@ flex-direction: row;
   
   .video{
     text-align: center;
+    font-weight: 800;
   }
   
   
@@ -122,15 +123,7 @@ flex-direction: row;
     text-align: center;
   }
   
-  .feature{
-  display: flex;
-  margin: 15px 1px;
-  padding-top: 1em;
-  
-  }
-  #container .feature {
-    display: flex;
-  }
+ 
   
   .pfeature{
     flex: 2;
@@ -145,14 +138,7 @@ flex-direction: row;
     flex: 1;
   }
   
-  .feature-box{
-    max-width: 1200px;
-    margin:  auto;
-    padding: 40px 50px;
-    display: flex;
-    text-align: center;
-    
-  }
+ 
   
   .video{
   flex: 0 0 120px;
